@@ -1,8 +1,9 @@
 # Portfolio
 **Profile**:
->My name is Jasper Ladkin. I am a computer science student at Westminster College in Salt Lake City, UT. I have many passions in and out of the computer science field. 
->I am working towards a Bachelors degree in computer science and plan on attending Graduate school for design and cyber security. Below are projects I have worked on 
-.during my time at Westminster College, to show my skills in both concepts and implementation. 
+>Jasper Ladkin 
+>Bachelors of Computer Science 
+>Throughout studying at Westminster College, not only have I built a great foundation in computer programming but expanded critical thinking, technical >writing and communication skills and practices. Outlined below are a set of projects highlighting these skills across all four years of my bachelors >degree. These projects are in a descending order (newest → oldest) to highlight my most recent work.
+
 
 **Artificial Intellience Project** :
 >   In this project I worked with the classic game Pacman. In this section we implemented search algoithms, DFS(Depth First Search) and BFS(Breadth First Search) 
