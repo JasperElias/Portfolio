@@ -3,8 +3,7 @@
 
  Jasper Ladkin <br />
  Bachelors Computer Science <br />
- [LinkedIn](https://www.linkedin.com/in/jasper-ladkin/)
- [Resume](https://github.com/JasperElias/Portfolio/blob/main/Portfolio/Resume.pdf)
+ [LinkedIn](https://www.linkedin.com/in/jasper-ladkin/)  |  [Resume](https://github.com/JasperElias/Portfolio/blob/main/Portfolio/Resume.pdf)
  
 &nbsp;&nbsp;&nbsp;&nbsp; Throughout studying at Westminster College, not only have I built a great foundation in computer programming but expanded critical thinking, technical writing and communication skills and practices. Outlined below are a set of projects highlighting these skills across all four years of my bachelors degree. <br />
 
@@ -22,7 +21,15 @@
 
 #### **Reflection:**
 
-SNOWPRO REFLECTION
+I chose this project because it shows the well-rounded programmer I have become. Before this project I didn't have any mobile-development experience. To learn new technologies and skills I set out to build SnowPro with the goals:
+
+1. Learn new technologies and Languages
+2. Improve Time-Management Skills
+3. Build a product to help the outdoor community
+
+Over the course I the project I was not only able to meet my goals as well a those set by the College. This project has provided me with a great amount of problem solving skills and individual development practices. Working with many new technologies caused me to run into many different issues along the development process. Some of these forced me to critically think through the errors individually, but when I was unable to find a solution, I learned how to clearly and effectively communicate with my peers for some help. 
+
+Although the mobile application is not complete and deployed, I hope to finish the application when time and resources are availible!
 
 ### *Repository: [SnowPro](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/SnowPro)*
 
@@ -31,7 +38,8 @@ SNOWPRO REFLECTION
 <img width="1153" alt="Screen Shot 2022-04-29 at 12 04 58 PM" src="https://user-images.githubusercontent.com/56274074/166000266-0d587e4b-0405-48f6-be95-52fb24b45fed.png">
 
 ####  **Description:**
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NumberNinja is a web game designed for learning basic mathematical concepts such as addition, subtraction, and number recognition. Built in a group of four, my main focus was on the back-end implementation of the prompted questions for the students to answer. In the file there is a concept write-up providing more information about the game design and intended goals, as well as the webBuild and the three implementations of the prompted questions. This project gave me great experience working in a group setting and delegating resources to produce a well rounded project.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Number Ninja is a fun-filled 2D platformer built to educate the age groups 6-7+ on basic math such as addition, subtraction, and number recognition (ones, tens, and hundredth place). Students will be following the story of a parkour skilled ninja named Tau as he navigates through obstacles and hardships, more specifically high risk jumps, stunts, etc. Students will be the determining factor for Tau’s wellbeing and have to answer mathematical questions within a certain amount of time or else Tau’s mission will fail.
+
 #### **Technologies & Languages:**          
       - Unity       - Git       - C#     - SQLite 
       
@@ -41,27 +49,27 @@ SNOWPRO REFLECTION
 
 #### **Reflection:**
 
-NUMBER NINJA reflection
+This project shows the collaboration between myself and three of my peers. My main focus was on the back-end implementation of the prompted questions for the students to answer, but also worked with my peers on game design and functionality. To ensure the curriculum was accurate, I worked with elementary school tutors to find an accruate and helpful curriculum for the students playing the game. After completing this project I had a greater understanding of local storage of resources and building web applications. Additionaly this project gave me great experience working in a group setting and delegating resources to produce a well rounded project.
 
 ### *Repository: [NumberNinja](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/NumberNinja)*
 
-## **Pacman:** *Understanding Heuristics*
+## **Pacman:** *Understanding Heuristics & Search Algorithms*
 
 ####  **Description:**
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this project I worked with the classic game Pacman. In this section we implemented search algoithms, DFS(Depth First Search) and BFS(Breadth First Search) for Pacman agents, and studied the hueristics of a succesful agent. Studying how each search algorithm helps the pacman agents traverse the board with each algorithm with the intended goal of building a pacman agent that wins every game. This project shows how I have developed effective problem solving skills and a demonstrates my understanding of software optimization. This project was difficult for me, but after working through the concept I have a greater understanding of developing AI agents.
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; In this project I worked with the classic game Pacman. In this section we implemented search algoithms, DFS(Depth First Search) and BFS(Breadth First Search) for Pacman agents, and studied the hueristics of a succesful agent. Studying how each search algorithm helps the pacman agents traverse the board with each algorithm with the intended goal of building a pacman agent that wins every game. The implementation of these search algorithms can be found within [search.py](https://github.com/JasperElias/Portfolio/blob/main/Portfolio/Pacman/search.py) and [searchAgents.py](https://github.com/JasperElias/Portfolio/blob/main/Portfolio/Pacman/searchAgents.py). 
 
 #### **Technologies & Languages:**          
-      - VSCode        - Python
+      - PyCharm        - Python
       
 #### **Demo Video/ Visuals:**
+<img width="400" alt="Screen Shot 2022-04-29 at 3 41 29 PM" src="https://user-images.githubusercontent.com/56274074/166073232-edd516bb-7f95-483c-8361-8331a30662d0.png"> <img width="400" alt="Screen Shot 2022-04-29 at 3 45 54 PM" src="https://user-images.githubusercontent.com/56274074/166073247-cfaaa9f1-b462-4930-a121-ad1da768098b.png">
 
 #### **Reflection:**
-PACMAN Reflection
+This project chosen to demonstrate my understanding and strength of algorithms and heuristics in artificial intelligence. Requiring a deeper understanding of computers and intense critical thinking, this project shows my strengths as a back-end developer. Most of this project was completed individually, but some sections such as the game logic were pair programmed with my peers. This project shows how I have developed effective problem solving skills and a demonstrates my understanding of software optimization. This project was difficult for me, but after working through the concepts I have a greater understanding of developing AI agents with respect to heuristics searching algorithms.
 
-### *Repository Link*
-"LINK IS HERE"
+### *Repository: [Pacman](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/Pacman)*
  
-## **Implemented Algorithms:** *Depth First Search, Breadth First Search, ETC....*
+## **ChatRoom:** *Depth First Search, Breadth First Search, ETC....*
 
 ####  **Description:**
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -74,10 +82,7 @@ PACMAN Reflection
 #### **Reflection:**
 This is a reflection here
 
-### *Repository Link*
-"LINK IS HERE"
- 
- PROJECT BREAK HERE
+### *Repository: [Chatroom](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/ChatRoom)*
  
  ## **Asteroids:** *Implementing Data Structures*
 
@@ -91,7 +96,7 @@ This is a reflection here
 https://user-images.githubusercontent.com/56274074/166057553-b0151bff-8a14-42a0-85d6-5c890d440310.mov
 
 #### **Reflection:**
-This is a reflection here
+Being the first large-scale individual project, I gained the skills of having a larger scope. This project shows a great base level understanding of object-oriented programming. With the addition of writting unit test across the course of the project, I have gained greater knowledge of problem solving using unit tests and debuggers. Although this was one of the first large scale projects, it shows the base of knowledge I have gained over the years of studying computer science.
 
 ### *Repository: [Asteriods](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/Asteroids)*
  
