@@ -65,26 +65,73 @@ This project shows the collaboration between myself and three of my peers. My ma
 <img width="400" alt="Screen Shot 2022-04-29 at 3 41 29 PM" src="https://user-images.githubusercontent.com/56274074/166073232-edd516bb-7f95-483c-8361-8331a30662d0.png"> <img width="400" alt="Screen Shot 2022-04-29 at 3 45 54 PM" src="https://user-images.githubusercontent.com/56274074/166073247-cfaaa9f1-b462-4930-a121-ad1da768098b.png">
 
 #### **Reflection:**
-This project chosen to demonstrate my understanding and strength of algorithms and heuristics in artificial intelligence. Requiring a deeper understanding of computers and intense critical thinking, this project shows my strengths as a back-end developer. Most of this project was completed individually, but some sections such as the game logic were pair programmed with my peers. This project shows how I have developed effective problem solving skills and a demonstrates my understanding of software optimization. This project was difficult for me, but after working through the concepts I have a greater understanding of developing AI agents with respect to heuristics searching algorithms.
+This project demonstrates my understanding and strength of algorithms and heuristics in artificial intelligence. Requiring a deeper understanding of computers and intense critical thinking, this project shows my strengths as a back-end developer. Most of this project was completed individually, but some sections such as the game logic were pair programmed with my peers. This project shows how I have developed effective problem solving skills and a demonstrates my understanding of software optimization. This project was difficult for me, but after working through the concepts I have a greater understanding of developing AI agents with respect to heuristics searching algorithms.
 
 ### *Repository: [Pacman](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/Pacman)*
  
-## **ChatRoom:** *Depth First Search, Breadth First Search, ETC....*
+## **ChatRoom:** *Networks & Protocols*
 
 ####  **Description:**
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This chatroom program is a culmination of learning about the inner working of networks. Including network architecture, design and implementation of protocols, network security, port programming, and performance analyzation. Using these skills as a class we designed a protocol for a chatroom application. After splitting into pairs, we implemented this protocol in a chatroom application that we were then able to connect and chat with our peers application versions due to the nature of our protocol. Some code snippits from the Message and messageHandler class are shown below.
 
 #### **Technologies & Languages:**          
-      - VSCode        - Python
+      - VSCode        - Java
       
 #### **Demo Video/ Visuals:**
 
+*[Message Class](https://github.com/JasperElias/Portfolio/blob/main/Portfolio/ChatRoom/Message.java)*
+    
+    // Enum provides known message types
+	public enum MessageType {
+		USER_LIST(0),
+		JOIN(1),
+		LEAVE(2),
+		DIRECT_MESSAGE(254),
+		BROADCAST_MESSAGE(255);
+		public final int controlCode;
+		
+		// Initialize message's controlCode
+		MessageType(final int controlCode) {
+			this.controlCode = controlCode;
+		}
+	}
+    
+*[MessageHandler Class](https://github.com/JasperElias/Portfolio/blob/main/Portfolio/ChatRoom/MessageHandler.java)*
+
+    public MessageHandler(final Message message) {
+		int neededCapacity = 5; // Control byte (1 byte) + quantity int (4 bytes)
+		final int payloadQuantity = message.getPayloadQuantity();
+		for(int payloadIndex = 0; payloadIndex < payloadQuantity; payloadIndex++)      // For each payload:
+			neededCapacity += 8 + message.getPayload(payloadIndex).getPayloadLength(); // User id int (4 bytes) + payload length int (4 bytes) + payload
+		this.buffer = ByteBuffer.allocate(neededCapacity);
+		this.buffer.put(this.byteOffset, (byte) message.getMessageType().controlCode);
+		this.byteOffset++;
+		this.buffer.putInt(this.byteOffset,payloadQuantity);
+		this.byteOffset += 4;
+		for(int payloadIndex = 0; payloadIndex < payloadQuantity; payloadIndex++)
+			this.writePayload(message.getPayload(payloadIndex));
+	}
+    
+    public Message getMessage() {
+		final int controlCode = this.buffer.get(this.byteOffset);
+		this.byteOffset++;
+		final int payloadQuantity = this.buffer.getInt(this.byteOffset);
+		this.byteOffset += 4;
+		final Message message = new Message(controlCode, payloadQuantity);
+		for(int payloadIndex = 0; payloadIndex < payloadQuantity; payloadIndex++) {
+			final int userId = this.buffer.getInt(this.byteOffset);
+			this.byteOffset += 4;
+			message.addPayload(new Message.Payload(userId, this.assemblePayloadBytes()), payloadIndex);
+		}
+		return message;
+	}
+
 #### **Reflection:**
-This is a reflection here
+This project was chosen to show my system-level understanding of computers through a network programming. To complete this project I had to learn how to better communicate with my peers when designing our protocol as a group. Over the course of this project I lead class discussions during design meetings and worked to create a collaborative and creative discussion enviorment. Although this became tought I times, I believe the communication skills of my peers and myself improved across the group section of this project. The resulting project demonstrates my knowledge of the relationships within computer systems, but a resulting project that required leadership and collaboration to complete.
 
 ### *Repository: [Chatroom](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/ChatRoom)*
  
- ## **Asteroids:** *Implementing Data Structures*
+ ## **Asteroids:** *Data Structures & Object-Oriented Programming*
 
 ####  **Description:**
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using the object-oriented language Java, I implemented a basic version of the classic arcade game Asteriods. Intended to represent the original game with personal styling choices. Over the course of three milestones of the project, I not only implemented the data structures within the game but provided the game logic. This project re-inforced my understanding of object-oriented programming with data structures, inheritence, and error handling. 
