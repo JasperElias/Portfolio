@@ -11,8 +11,7 @@
 ## **SnowPro:** *Mobile Application to record and share snowpack data*
 
 ####  **Description:**
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Avalanche safety professionals need a mass of accurate snowpack data to build reports and forecast conditions for backcountry users to stay safe 
->when accessing the outdoors.  To help provide data and tools for backcountry users, I designed and implemented a mobile application that the community      can use to build a data bank of observations taken in the field. 
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Avalanche safety professionals need a mass of accurate snowpack data to build reports and forecast conditions for backcountry users to stay safe when accessing the outdoors.  To help provide data and tools for backcountry users, I designed and implemented a mobile application that the community can use to build a data bank of observations taken in the field. 
 
 #### **Technologies & Languages:**          
       - React Native        - XCode                 - JSON                  - Mongoose 
@@ -25,10 +24,8 @@
 
 SNOWPRO REFLECTION
 
-### *Repository Link*
-"LINK IS HERE"
+### *Repository: [SnowPro](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/SnowPro)*
 
-PROJECT BREAK HERE
 ## **NumberNinja:** *Web Game for Learning Basic Addition/Subtraction*
 
 <img width="1153" alt="Screen Shot 2022-04-29 at 12 04 58 PM" src="https://user-images.githubusercontent.com/56274074/166000266-0d587e4b-0405-48f6-be95-52fb24b45fed.png">
