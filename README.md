@@ -3,6 +3,8 @@
 
  Jasper Ladkin <br />
  Bachelors Computer Science <br />
+ [LinkedIn](https://www.linkedin.com/in/jasper-ladkin/)
+ [Resume](https://github.com/JasperElias/Portfolio/blob/main/Portfolio/Resume.pdf)
  
 &nbsp;&nbsp;&nbsp;&nbsp; Throughout studying at Westminster College, not only have I built a great foundation in computer programming but expanded critical thinking, technical writing and communication skills and practices. Outlined below are a set of projects highlighting these skills across all four years of my bachelors degree. <br />
 
@@ -44,8 +46,7 @@ PROJECT BREAK HERE
 
 NUMBER NINJA reflection
 
-### *Repository Link*
-"LINK IS HERE"
+### *Repository: [NumberNinja](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/NumberNinja)*
 
 ## **Pacman:** *Understanding Heuristics*
 
@@ -95,6 +96,5 @@ https://user-images.githubusercontent.com/56274074/166057553-b0151bff-8a14-42a0-
 #### **Reflection:**
 This is a reflection here
 
-### *Repository Link*
-"LINK IS HERE"
+### *Repository: [Asteriods](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/Asteroids)*
  
