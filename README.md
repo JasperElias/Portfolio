@@ -29,7 +29,7 @@ I chose this project because it shows the well-rounded programmer I have become.
 
 Over the course I the project I was not only able to meet my goals as well a those set by the College. This project has provided me with a great amount of problem solving skills and individual development practices. Working with many new technologies caused me to run into many different issues along the development process. Some of these forced me to critically think through the errors individually, but when I was unable to find a solution, I learned how to clearly and effectively communicate with my peers for some help. 
 
-Although the mobile application is not complete and deployed, I hope to finish the application when time and resources are availible!
+Although the mobile application is not complete and deployed, I hope to finish the application when time and resources are available!
 
 ### *Repository: [SnowPro](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/SnowPro)*
 
