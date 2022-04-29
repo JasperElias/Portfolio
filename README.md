@@ -2,7 +2,7 @@
 ## **About:** 
 
  Jasper Ladkin <br />
- Bachelors of Computer Science <br />
+ Bachelors Computer Science <br />
  
 &nbsp;&nbsp;&nbsp;&nbsp; Throughout studying at Westminster College, not only have I built a great foundation in computer programming but expanded critical thinking, technical writing and communication skills and practices. Outlined below are a set of projects highlighting these skills across all four years of my bachelors degree. <br />
 
@@ -21,7 +21,7 @@
 
 #### **Reflection:**
 
-This is a reflection here
+SNOWPRO REFLECTION
 
 ### *Repository Link*
 "LINK IS HERE"
@@ -34,8 +34,7 @@ PROJECT BREAK HERE
 ####  **Description:**
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NumberNinja is a web game designed for learning basic mathematical concepts such as addition, subtraction, and number recognition. Built in a group of four, my main focus was on the back-end implementation of the prompted questions for the students to answer. In the file there is a concept write-up providing more information about the game design and intended goals, as well as the webBuild and the three implementations of the prompted questions. This project gave me great experience working in a group setting and delegating resources to produce a well rounded project.
 #### **Technologies & Languages:**          
-      - Unity       -         -                -  
-      - C#          - SQLite             -                - 
+      - Unity       - Git       - C#     - SQLite 
       
 #### **Demo Video/ Visuals:**
 <img src="https://user-images.githubusercontent.com/56274074/166000915-22909df8-f0fa-4644-b883-0b4a05fc01f2.gif" width="250"> <img src="https://user-images.githubusercontent.com/56274074/166001762-48f6d6dd-cfd6-4e23-9c97-a8f8df79c6fb.png" width="750">
@@ -43,12 +42,11 @@ PROJECT BREAK HERE
 
 #### **Reflection:**
 
-This is a reflection here
+NUMBER NINJA reflection
 
 ### *Repository Link*
 "LINK IS HERE"
 
-PROJECT BREAK
 ## **Pacman:** *Understanding Heuristics*
 
 ####  **Description:**
@@ -60,14 +58,12 @@ PROJECT BREAK
 #### **Demo Video/ Visuals:**
 
 #### **Reflection:**
-This is a reflection here
+PACMAN Reflection
 
 ### *Repository Link*
 "LINK IS HERE"
  
- PROJECT BREAK HERE
- 
- ## **Implemented Algorithms:** *Depth First Search, Breadth First Search, ETC....*
+## **Implemented Algorithms:** *Depth First Search, Breadth First Search, ETC....*
 
 ####  **Description:**
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
@@ -88,13 +84,12 @@ This is a reflection here
  ## **Asteroids:** *Implementing Data Structures*
 
 ####  **Description:**
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Using the object-oriented language Java, I implemented a basic version of the classic arcade game Asteriods. Intended to represent the original game with personal styling choices. Over the course of three milestones of the project, I not only implemented the data structures within the game but provided the game logic. This project re-inforced my understanding of object-oriented programming with data structures, inheritence, and error handling. 
 
 #### **Technologies & Languages:**          
       - Eclipse        - Java
       
 #### **Demo Video/ Visuals:**
-
 https://user-images.githubusercontent.com/56274074/166057553-b0151bff-8a14-42a0-85d6-5c890d440310.mov
 
 #### **Reflection:**
@@ -103,5 +98,3 @@ This is a reflection here
 ### *Repository Link*
 "LINK IS HERE"
  
- PROJECT BREAK HERE
-
