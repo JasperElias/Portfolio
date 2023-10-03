@@ -33,7 +33,7 @@ Although the mobile application is not complete and deployed, I hope to finish t
 
 ### *Repository: [SnowPro](https://github.com/JasperElias/Portfolio/tree/main/Portfolio/SnowPro)*
 
-## **NumberNinja:** *Web Game for Learning Basic Addition/Subtraction*
+## **NumberNinja:** *Web Game for Learning Addition/Subtraction*
 
 <img width="1153" alt="Screen Shot 2022-04-29 at 12 04 58 PM" src="https://user-images.githubusercontent.com/56274074/166000266-0d587e4b-0405-48f6-be95-52fb24b45fed.png">
 
